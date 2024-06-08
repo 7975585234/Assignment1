@@ -1,4 +1,5 @@
 # Assignment1
+My assignment task is task managing application using frontend(htlm,css,js)and backend(node.ja,flask)
 To run both frontend (HTML) and backend (Node.js) code in Visual Studio Code, you can follow these steps:
 
 Ensure you have your HTML file (for the frontend) and your Node.js files (for the backend) in your project directory.
