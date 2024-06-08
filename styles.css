@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(18, 171, 182, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color:chartreuse
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form button {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.subscribe {
+  background-color: rgb(3, 230, 143);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 500px;
+  border-radius: 2px;
+  cursor: grab;
+}
+
+button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#task-list {
+  margin: 20px 0;
+}
+
+.task {
+  background: #e2e2e2;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-details {
+  margin: 10px 0;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-actions button {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.task-actions button:hover {
+  background: #c82333;
+}
+
+.task-actions .edit-button {
+  background: #007bff;
+}
+
+.task-actions .edit-button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+
+  form input, form button {
+      margin: 3px 0;
+      padding: 8px;
+  }
+}
